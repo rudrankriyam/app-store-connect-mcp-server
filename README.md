@@ -133,6 +133,18 @@ Add the following to your Claude Desktop configuration file:
 }
 ```
 
+### Claude Code
+
+Use the following command: 
+
+```bash
+claude mcp add --transport stdio app-store-connect \                                                                           
+    --env APP_STORE_CONNECT_KEY_ID=YOUR_KEY_ID \                                                                                 
+    --env APP_STORE_CONNECT_ISSUER_ID=YOUR_ISSUER_ID \                                                                           
+    --env APP_STORE_CONNECT_P8_PATH=/path/to/your/auth-key.p8 \                                                                  
+    -- npx -y appstore-connect-mcp-server 
+```
+
 ## Authentication
 
 ### Required Configuration
