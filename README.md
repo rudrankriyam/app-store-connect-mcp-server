@@ -1,4 +1,6 @@
 # App Store Connect MCP Server
+[![Star History Chart](https://api.star-history.com/svg?repos=rudrankriyam/app-store-connect-mcp-server&type=Date)](https://star-history.com/#rudrankriyam/app-store-connect-mcp-server&Date)
+
 
 A Model Context Protocol (MCP) server for interacting with the App Store Connect API. This server provides tools for managing apps, beta testers, bundle IDs, devices, and capabilities in App Store Connect.
 
